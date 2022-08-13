@@ -1,0 +1,587 @@
+@media (min-width:1200px) {
+    .banner {
+        background-attachment: fixed !important;
+    }
+}
+
+@media (min-width:1140px) {}
+
+@media (max-width:1250px) {
+    .c-row {
+        max-width: 1100px;
+    }
+    .col-4 {
+        width: 50%;
+    }
+    .cre-detl-row .button.btn2 {
+        padding: 10px 12px;
+    }
+}
+
+@media (max-width:1140px) {
+    .left-nav {
+        display: none;
+    }
+    .logo-nav {
+        width: 40%;
+    }
+    .right-nav {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .hamburger__toggle {
+        display: block;
+    }
+    .hamburger__toggle {
+        display: block;
+        position: relative;
+        background-color: #3d3d3d00;
+        width: 60px;
+        height: 45px;
+        border-radius: 50%;
+        border: none;
+        float: right;
+    }
+    .hamburger__icon,
+    .hamburger__icon::before,
+    .hamburger__icon::after {
+        position: absolute;
+        width: 40px;
+        height: 4px;
+        border-radius: 4px;
+        background-color: white;
+    }
+    .hamburger__icon {
+        top: calc(50% - 2px);
+        left: calc(50% - 15px);
+    }
+    .hamburger__icon::before,
+    .hamburger__icon::after {
+        content: "";
+        left: 0;
+    }
+    .hamburger__icon::before {
+        bottom: 12px;
+    }
+    .hamburger__icon::after {
+        top: 12px;
+    }
+    .hamburger__toggle.change .hamburger__icon {
+        height: 4px;
+        width: 45px;
+        left: 5px;
+        top: calc(50% - 2px);
+        transform: rotate(-45deg);
+        background-color: #fff;
+    }
+    .hamburger__toggle.change .hamburger__icon::after {
+        width: 45px;
+        height: 4px;
+        top: -1px;
+        transform: rotate(-270deg);
+        background-color: #fff;
+    }
+    .hamburger__toggle.change .hamburger__icon::before {
+        transform: scale(0);
+    }
+    .hamburger__icon,
+    .hamburger__icon::after {
+        transition: all 0.3s linear;
+    }
+    .navigations {
+        display: table;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 0;
+    }
+    .navigations:not(.menu-active) {
+        pointer-events: none;
+    }
+    .navigations .navigation {
+        background-color: #ec7368;
+        margin: -1px;
+        display: none;
+    }
+    .navigation li {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .navigation li:hover {
+        background-color: black;
+    }
+    footer,
+    .header .c-row {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner.about-sec.crs-entry-qualification .content-sec h2 {
+        font-size: 50px;
+    }
+    .menu-item-has-children:before {
+        right: 30px;
+        top: 20px;
+    }
+    .menu-item-has-children ul {
+        position: relative;
+        margin-top: 20px;
+        border-top: 0;
+        width: 100%;
+    }
+    .menu-item-has-children ul:before {
+        display: none;
+    }
+    .menu-item-has-children ul li {
+        width: 100%;
+        padding: 0;
+    }
+    .menu-item-has-children ul li a {
+        width: 100%;
+        display: block;
+    }
+    .crs-table {
+        max-width: 900px;
+    }
+    .cre-t-row li {
+        width: 25% !important;
+    }
+    .cd-card {
+        padding: 25px 20px;
+    }
+    .banner.about.profile-detail .content-sec {
+        max-width: 90%;
+    }
+    ul.cre-detl-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cre-detl-row .button.btn2 {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:991px) {
+    .col-5 {
+        width: 100%;
+    }
+    .box-modal .col-5 {
+        width: 50%;
+    }
+    .policy-links,
+    .copyright {
+        text-align: center;
+        padding: 10px;
+    }
+    .videosSection {
+        height: 100% !important;
+        width: auto;
+        max-width: max-content;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .banner.about-sec .content-sec p {
+        margin-bottom: 20px;
+    }
+    .banner.about-sec .content-sec h2,
+    .banner.mission .content-sec h2,
+    .banner.about .content-sec .title,
+    .banner.about-sec.crs-entry-qualification .content-sec h2,
+    .ytvideo-sec .content-sec .yt-title {
+        font-size: 40px;
+    }
+    .banner.abt-video-sec .content-sec h2 {
+        font-size: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .col-3 {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .banner.values {
+        padding: 60px 0;
+    }
+    .crs-table {
+        max-width: 90%;
+        margin-right: auto;
+        overflow-x: scroll;
+        margin-left: auto;
+    }
+    .crs-table li {
+        width: 1050px;
+    }
+    .banner.enrol-date-crs .content-sec {
+        max-width: 95%;
+    }
+    .banner.enrol-date-crs p {
+        max-width: 90%;
+    }
+    .col-course-5 {
+        width: 25%;
+    }
+    .cd-card {
+        padding: 25px 30px;
+    }
+    .subsc-sec .note {
+        margin-top: 20px;
+        box-sizing: border-box;
+    }
+    .c-payment .col-3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .contact-banner.banner.about .content-sec h2 {
+        font-size: 25px;
+    }
+    .banner.about.contact-banner .content-sec {
+        margin-top: 150px;
+        max-width: 95%;
+    }
+    .banner.el-course.contact-form .content-sec .title {
+        text-align: left;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .sesson-date-formside {
+        text-align: left;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .ytvideo-sec {
+        padding: 70px 0;
+    }
+    .ytvideo-sec .content-sec .yt-title {
+        margin-bottom: 10px;
+        text-align: left !important;
+    }
+    .ytvideo-sec .content-sec .padr-40 {
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    .ytvideo-sec .content-sec .padl-40 {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:769px) {
+    .banner .content-sec {
+        max-width: 95%;
+    }
+    .banner .content-sec h2,
+    .banner.el-course .content-sec .title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .banner .content-sec .title {
+        font-size: 55px;
+        margin-bottom: 10px;
+    }
+    .banner .content-sec h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .banner.about .content-sec h2,
+    .banner.abt-video-sec .content-sec h2,
+    .banner.video-sec .content-sec h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .banner.video-sec .content-sec .title,
+    .banner.video-sec .content-sec h3 {
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    .banner.slide .content-sec .title {
+        font-size: 24px;
+        max-width: 90%;
+        margin: auto;
+    }
+    .banner.about-sec .content-sec p {
+        margin-bottom: 15px;
+    }
+    .banner.mission .content-sec p {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .banner.about .content-sec h3,
+    .banner.about-sec .content-sec h2,
+    .banner.mission .content-sec h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .banner.abt-video-sec .content-sec h2 {
+        font-size: 25px;
+        line-height: 1.7;
+    }
+    .banner.about .content-sec .title,
+    .banner.about-sec.crs-entry-qualification .content-sec h2,
+    .ytvideo-sec .content-sec .yt-title {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .banner.about.membership .content-sec h2 {
+        margin-bottom: 0px;
+    }
+    .banner.about.membership .content-sec .title {
+        margin-bottom: 5px;
+    }
+    .col-course-5 {
+        width: 50%;
+    }
+    .date-f2f-olc .c-row.jc-center .col-3 {
+        width: 48%;
+    }
+    .learning-date-tab {
+        height: 100%;
+        display: flex;
+    }
+}
+
+@media (max-width:674px) {
+    .box-modal .crs-card .crs-detl {
+        padding: 20px 5px;
+    }
+    .box-modal .crs-card .button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:570px) {
+    .hamburger__icon,
+    .hamburger__icon::before,
+    .hamburger__icon::after {
+        height: 2px;
+        width: 35px;
+    }
+    .m-btn-p .button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .banner .content-sec .logo {
+        width: 350px;
+    }
+    .banner .content-sec h2,
+    .banner.el-course .content-sec .title {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .banner .content-sec .title {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .banner .content-sec h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .banner.about .content-sec h2,
+    .banner.abt-video-sec .content-sec h2,
+    .banner.video-sec .content-sec h2,
+    .ytvideo-sec .content-sec .yt-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .banner.video-sec .content-sec .title,
+    .banner.video-sec .content-sec h3 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .banner.slide .content-sec .title {
+        font-size: 20px;
+        max-width: 90%;
+        margin: auto;
+    }
+    .banner.about-sec .content-sec p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .banner.mission .content-sec p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .banner.about .content-sec h2,
+    .banner.abt-video-sec .content-sec h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .banner.about .content-sec .title,
+    .banner.about-sec .content-sec h2,
+    .banner.mission .content-sec h2 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .banner.about .content-sec h3 {
+        font-size: 35px;
+    }
+    .banner.mission {
+        background-position-x: right !important;
+    }
+    .banner.values p {
+        font-size: 17px;
+    }
+    .icon img {
+        height: 80px;
+    }
+    .banner.about .content-sec .title,
+    .banner.about-sec.crs-entry-qualification .content-sec h2 {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    .footer .footer-logo {
+        width: 230px;
+    }
+    .col-4 {
+        width: 100%;
+    }
+    .box-modal p,
+    .login-form .input-box input,
+    .login-form .input-box label {
+        font-size: 16px;
+    }
+    .box-modal {
+        padding: 20px;
+    }
+    .box-modal .col-5 {
+        width: 100%;
+    }
+    .box-modal .crs-card .crs-label {
+        font-size: 15px;
+    }
+    .box-modal h2,
+    .box-modal .crs-card .crs-pri {
+        font-size: 25px;
+    }
+    .box-modal .crs-card .subscrip-text {
+        font-size: 17px;
+    }
+    .col-course-5 {
+        width: 100%;
+    }
+    .cd-card {
+        padding: 15px 15px;
+    }
+    .p-card .p-c-price {
+        font-size: 28px;
+    }
+    .p-card .p-c-detail p {
+        font-size: 20px;
+    }
+    .profile-dewscription-text {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .pro-desc {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .profile-dewscription-text p {
+        margin-bottom: 15px;
+    }
+    .profile-dewscription-text img {
+        margin-right: 10px;
+    }
+    .contact-banner p.c-title {
+        font-size: 20px;
+    }
+    .banner.about.contact-banner .content-sec h2 {
+        margin-bottom: 0;
+    }
+    .ytvideo-sec .content-sec .padr-40 {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    .policy-links a {
+        display: block;
+        margin-left: 0;
+        padding: 5px;
+    }
+    .button {
+        font-size: 14px;
+    }
+    .m-btn-p .button {
+        font-size: 12px;
+        padding: 5px 7px;
+    }
+    .banner .content-sec .logo {
+        width: 280px;
+    }
+    .banner .content-sec h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .banner .content-sec .title {
+        font-size: 35px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+    .banner .content-sec h3 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .banner.video-sec .content-sec h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .banner.video-sec .content-sec .title,
+    .banner.video-sec .content-sec h3 {
+        font-size: 36px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+    .banner.slide .content-sec .title {
+        font-size: 20px;
+        max-width: 90%;
+        margin: auto;
+    }
+    .banner.about .content-sec h2,
+    .banner.abt-video-sec .content-sec h2 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .banner.about .content-sec .title,
+    .banner.about-sec .content-sec h2,
+    .banner.mission .content-sec h2 {
+        font-size: 23px;
+        margin-bottom: 0px;
+    }
+    .banner.mission .content-sec p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .banner.values p {
+        font-size: 16px;
+    }
+    .icon img {
+        height: 70px;
+    }
+    .banner.about .content-sec .title,
+    .banner.about-sec.crs-entry-qualification .content-sec h2 {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    .footer .footer-logo {
+        width: 200px;
+    }
+    .close-icon {
+        top: 5px;
+        right: 10px;
+    }
+    .box-modal {
+        padding: 10px;
+    }
+    .date-f2f-olc .c-row.jc-center .col-3 {
+        width: 100%;
+        margin: 0;
+    }
+    .date-f2f-olc .c-row.jc-center .col-3 .cd-card {
+        width: 100%;
+    }
+    .ytvideo-sec {
+        padding: 70px 0;
+    }
+}
